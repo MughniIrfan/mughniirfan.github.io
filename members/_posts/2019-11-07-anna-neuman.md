@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Anastasia Neuman
-alumni: false 
+alumni: true 
 profile_name: Anastasia Neuman
 abbrev: A. Neuman
 position: PhD Student
