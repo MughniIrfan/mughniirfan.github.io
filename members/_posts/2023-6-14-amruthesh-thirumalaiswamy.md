@@ -5,7 +5,7 @@ profile_name: Amruthesh T
 abbrev: A. Thirumalaiswamy
 suffix: Ph.D.
 research: Ph.D. Alum
-position: Postdoctoral Research Associate at NIST
+position: Postdoctoral Research Associate, NIST
 email: amru at seas.upenn.edu
 #scholar: GafF6ScAAAAJ
 linkedin: amruthesh-t-64a89511a
