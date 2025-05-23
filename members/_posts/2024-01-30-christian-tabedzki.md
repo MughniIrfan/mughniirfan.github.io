@@ -3,6 +3,7 @@ layout: member
 title: Christian Tabedzki
 profile_name: Christian Tabedzki
 abbrev: C. Tabedzki
+position: Research Software Engineer at Princeton Neuroscience Institute
 suffix: Ph.D.
 research: Ph.D. Alum
 email: tabedzki at seas.upenn.edu
