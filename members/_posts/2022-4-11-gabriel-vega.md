@@ -5,6 +5,7 @@ alumni: false
 profile_name: Gabriel Vega Bellido
 abbrev: G.I. Vega Bellido 
 position: PhD Student
+research: Multiscale liquid crystal simulations
 email: gveg at seas.upenn.edu
 linkedin: gabriel-vega-bellido-575094107
 image: /images/members/gabriel.png 
