@@ -3,7 +3,7 @@ layout: member
 title: Trevor Devine
 abbrev: T. Devine
 position: Consultant at BCG
-research: Thermodynamics of highly confined polymer blend nanocomposites 
+research: Ph.D. Alum
 email:  devinetr at seas.upenn.edu
 alumni: true
 image: /images/members/trevor-devine.jpg
