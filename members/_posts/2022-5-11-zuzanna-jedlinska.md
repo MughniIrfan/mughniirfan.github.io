@@ -5,6 +5,7 @@ alumni: true
 profile_name: Zuzanna M. Jedlinska
 abbrev: Z. M. Jedlinska
 position: Research associate in HPC group at Texas Advanced Computing Center
+research: Ph.D. Alum
 email: zuzannaj at sas.upenn.edu
 linkedin: zuzanna-j-8a05b9163
 image: /images/members/zuzanna.jpg
