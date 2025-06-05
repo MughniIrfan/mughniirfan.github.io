@@ -4,8 +4,7 @@ title: Zuzanna M. Jedlinska
 alumni: true
 profile_name: Zuzanna M. Jedlinska
 abbrev: Z. M. Jedlinska
-research: Computational study of complex-coacervation in polypeptide solutions
-position: PhD Student
+position: Research associate in HPC group at Texas Advanced Computing Center
 email: zuzannaj at sas.upenn.edu
 linkedin: zuzanna-j-8a05b9163
 image: /images/members/zuzanna.jpg
