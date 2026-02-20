@@ -1,7 +1,6 @@
 name: AREIS Lab Khalifa University
 description: Autonomous Robotics and Embedded Intelligent Systems Lab at Khalifa University
 url: "https://mughniirfan.github.io"
-baseurl: "/Lab-Website"
 
 markdown: kramdown
 permalink: /:categories/:title/
