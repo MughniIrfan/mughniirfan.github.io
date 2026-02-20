@@ -1,6 +1,7 @@
 name: Riggleman Research Lab
 description: Computational research on polymer and glassy materials from the Riggleman Lab at the University of Pennsylvania
-url: http://rrgroup.seas.upenn.edu
+url: "https://mughniirfan.github.io"
+baseurl: "/Lab-Website"
 
 markdown: kramdown
 permalink: /:categories/:title/
