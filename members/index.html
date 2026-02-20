@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Riggleman Lab / Members
+title: AREIS LAB / Members
 categories:
  - members
 ---
@@ -51,15 +51,23 @@ categories:
 
 <div class="row">
   <div class="col-md-12">
-    <h1>Current PhD Students</h1>
+    <h1>Postdoctoral Fellow</h1>
   </div>
 </div>
 
 <hr>
 
-{% include member_loop.html member_role="PhD Student" alumni=false %}
+{% include member_loop.html member_role="Postdoctoral Fellow" alumni=false %}
 
+<div class="row">
+  <div class="col-md-12">
+    <h1>Research Staff</h1>
+  </div>
+</div>
 
+<hr>
+
+{% include member_loop.html member_role="Research Staff" alumni=false %}
 
 <!-- <div class="row"> -->
 <!--   <div class="col-md-12"> -->
@@ -83,11 +91,11 @@ categories:
 
 <div class="row">
   <div class="col-md-12">
-    <h1>Alumni</h1>
+    <h1>PhD Students</h1>
   </div>
 </div>
 
 <hr>
 
-{% include member_loop.html alumni=true%}
+{% include member_loop.html member_role="PhD Student" alumni=false %}
 

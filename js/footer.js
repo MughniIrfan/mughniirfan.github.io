@@ -18,16 +18,16 @@ $(window).resize(function() {
     autoHeight();
 });
 
-$(document).ready(function() {
-    // Change text and color of footer logo to white on mouseover
-    $('#footer-logo-box').mouseover(function() {
-        $('#pennimg').attr('src','/images/upenn-footer-logo-white.png');
-        $('#cbe-text').css('color', 'white');
-    });
+// $(document).ready(function() {
+//     // Change text and color of footer logo to white on mouseover
+//     $('#footer-logo-box').mouseover(function() {
+//         $('#pennimg').attr('src','/images/upenn-footer-logo-white.png');
+//         $('#cbe-text').css('color', 'white');
+//     });
 
-    // Change text and color of footer logo to gray on mouseout
-    $('#footer-logo-box').mouseout(function() {
-        $('#pennimg').attr('src','/images/upenn-footer-logo.png');
-        $('#cbe-text').css('color', '#9d9d9d');
-    });
-});
+//     // Change text and color of footer logo to gray on mouseout
+//     $('#footer-logo-box').mouseout(function() {
+//         $('#pennimg').attr('src','/images/upenn-footer-logo.png');
+//         $('#cbe-text').css('color', '#9d9d9d');
+//     });
+// });
