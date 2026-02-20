@@ -8,24 +8,23 @@
 
   <!-- RSS feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}"
-  href="{{ site.url }}/feed.xml">
+        href="{{ '/feed.xml' | relative_url }}">
 
   <!-- Customized Bootstrap + Font Awesome + Solarized -->
-  <link href="/css/style.css" rel="stylesheet" media="screen">
+  <link href="{{ '/css/style.css' | relative_url }}" rel="stylesheet" media="screen">
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/ihlab_logo.jpg">
-  <link rel="icon" type="image/jpg" href="/favicons/ihlab_logo_32x32.jpg" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicons/ihlab_logo_16x16.png" sizes="16x16">
-  <link rel="manifest" href="/favicons/manifest.json">
-  <link rel="mask-icon" href="/favicons/KU-logo.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="/favicons/ihlab_logo.ico">
-  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/favicons/ihlab_logo.jpg' | relative_url }}">
+  <link rel="icon" type="image/jpg" href="{{ '/favicons/ihlab_logo_32x32.jpg' | relative_url }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ '/favicons/ihlab_logo_16x16.png' | relative_url }}" sizes="16x16">
+  <link rel="manifest" href="{{ '/favicons/manifest.json' | relative_url }}">
+  <link rel="mask-icon" href="{{ '/favicons/KU-logo.svg' | relative_url }}" color="#5bbad5">
+  <link rel="shortcut icon" href="{{ '/favicons/ihlab_logo.ico' | relative_url }}">
+  <meta name="msapplication-config" content="{{ '/favicons/browserconfig.xml' | relative_url }}">
   <meta name="theme-color" content="#ffffff">
 
   <!-- Google Analytics -->
   <script type="text/javascript">
-
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-26220778-1']);
     _gaq.push(['_trackPageview']);
@@ -35,24 +34,23 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-
   </script>
   <!-- END Google Analytics -->
 
   <script type="text/javascript"
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"">
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
 
   <!-- jQuery -->
-  <script src="/js/jquery.min.js"></script>
+  <script src="{{ '/js/jquery.min.js' | relative_url }}"></script>
 
   <!-- Bootstrap -->
-  <script src="/js/transition.js"></script>
-  <script src="/js/collapse.js"></script>
+  <script src="{{ '/js/transition.js' | relative_url }}"></script>
+  <script src="{{ '/js/collapse.js' | relative_url }}"></script>
 
   <!-- Custom script to put footer at bottom even if post is short -->
   <!-- also controls color of footer logo on mouseover -->
-  <script src="/js/footer.js"></script>
+  <script src="{{ '/js/footer.js' | relative_url }}"></script>
 
 </head>
 
@@ -68,7 +66,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">AREIS Lab</a>
+          <a class="navbar-brand" href="{{ '/' | relative_url }}">AREIS Lab</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse-element">
           <ul class="nav navbar-nav navbar-right">
@@ -77,42 +75,42 @@
             {% else %}
             <li>
             {% endif %}
-              <a href="/research/">Research</a>
+              <a href="{{ '/research/' | relative_url }}">Research</a>
             </li>
             {% if page.categories.first == 'publications' %}
             <li class="active">
             {% else %}
             <li>
             {% endif %}
-              <a href="/publications/">Publications</a>
+              <a href="{{ '/publications/' | relative_url }}">Publications</a>
             </li>
             {% if page.categories.first == 'members' %}
             <li class="active">
             {% else %}
             <li>
             {% endif %}
-              <a href="/members/">Members</a>
+              <a href="{{ '/members/' | relative_url }}">Members</a>
             </li>
             {% if page.categories.first == 'code' %}
             <li class="active">
             {% else %}
             <li>
             {% endif %}
-              <a href="/code/">Code</a>
+              <a href="{{ '/code/' | relative_url }}">Code</a>
             </li>
             {% if page.categories.first == 'lectures' %}
             <li class="active">
             {% else %}
             <li>
             {% endif %}
-              <a href="/lectures/">Lectures</a>
+              <a href="{{ '/lectures/' | relative_url }}">Lectures</a>
             </li>
             {% if page.categories.first == 'photos' %}
             <li class="active">
             {% else %}
             <li>
             {% endif %}
-              <a href="/photos/">Photos</a>
+              <a href="{{ '/photos/' | relative_url }}">Photos</a>
             </li>
           </ul>
         </div>
@@ -131,16 +129,16 @@
       <div class="container">
         <ul class="nav navbar-nav footernav">
           <li>
-            <a href="/about/">About</a>
+            <a href="{{ '/about/' | relative_url }}">About</a>
           </li>
           <li>
-            <a href="/contact/">Contact</a>
+            <a href="{{ '/contact/' | relative_url }}">Contact</a>
           </li>
           <li>
-            <a href="/collaborate/">Collaborate</a>
+            <a href="{{ '/collaborate/' | relative_url }}">Collaborate</a>
           </li>
           <li>
-            <a href="/join/">Join</a>
+            <a href="{{ '/join/' | relative_url }}">Join</a>
           </li>
         </ul>
       </div>
@@ -154,7 +152,7 @@
         </ul>
         <div id="footer-logo" class="center-block">
           <a href="https://www.ku.ac.ae/">
-            <img id="pennimg" src="/images/KU-logo.jpg">
+            <img id="pennimg" src="{{ '/images/KU-logo.jpg' | relative_url }}">
           </a>
         </div>
       </div>
